@@ -1,0 +1,16 @@
+ul{
+    display: flex;
+    margin-top: 25px;
+    margin: auto;
+}
+li{
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.adjust{
+    height: 425px;
+}
+.readjust{
+    width: 240px;
+}
