@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector */
+        div{
+            background-color: red;
+        }
+        /* class selector */
+        .green{
+            background-color: green;
+        }
+        /* Id selector */
+        #yellow{
+            background-color: yellow;
+        }
+        /* child selector */
+        div > p{
+             color:aqua;
+        }
+        /* descendent selector */
+        span p{
+              color: brown;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo selector */
+        a:visited{
+             color: orange;
+        }
+        a:link{
+            color:greenyellow
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: black;
+        }
+        /* first child selector */
+        p:first-child{
+            background-color: black;
+            color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div>I am a div</div>
+    <div class="green">I am another div</div>
+    <p id="yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, consectetur?</p>
+    <div>
+        I am div
+        <p>Aayush</p>
+    </div>
+    <span>
+        <p>I am first</p>
+        <p>i am second</p>
+    </span>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.quora.com">Go to Google</a>
+    <main>
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+</body>
+</html>
