@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            border: 2px solid black;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            margin: auto;
+            width: 80vw;
+            height: 10vh;
+        }
+
+        .container {
+            border: 2px solid black;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            margin: 23px auto;
+            width: 80vw;
+            /* height: 80vh; */
+            font-size: 20px;
+            min-height: 80vh;
+        }
+
+        .container > div {
+            /* font-size: 2em; */
+            font-size: 2rem;
+            border: 2px solid red;
+            width: 50%;
+        }
+        .container > div > div {
+            /* font-size: 2em; */
+            font-size: 2rem;
+            border: 2px solid purple;
+            width: 50%;
+        }
+
+        .mycont {
+            border: 2px solid black;
+            width: 80vw;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">This is a div</div>
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias rem dicta perspiciatis autem, quo vitae
+            modialiquid tempora maxime ex mollitia impedit ipsum.
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rem deleniti sunt? Quidem, quod.
+                Alias, vitae! Maxime veniam sit molestias?</div>
+        </div>
+    </div>
+    <div class="mycont">
+        this is another container
+    </div>
+</body>
+
+</html>
