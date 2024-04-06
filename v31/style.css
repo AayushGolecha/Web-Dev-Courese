@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(235, 191, 133);
+}
+div{
+    font-weight: 800;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    background-color: orangered;
+    height: 200px;
+    width: 425px;
+    padding: 3px;
+    margin: 5px;
+}
+@media only screen and (max-width:455px){
+    body{
+        background-color: blueviolet;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+}
