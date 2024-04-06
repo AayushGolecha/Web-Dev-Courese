@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color1: rgb(245, 125, 219);
+    --color2: yellow;
+    --color3: orange;
+}
+body{
+    background-color: rgb(240, 208, 213);
+}
+
+.box{
+    background-color: var(--color2);
+    padding: 20px;
+}
+.box span{
+   font-size: 20px;
+   font-weight: 600;
+    padding-left: 50px; 
+}
+.box span:hover{
+    color: blue;
+}
