@@ -3,6 +3,9 @@
 html{
     font-family: "Baloo 2", sans-serif;
 }
+body{
+    background-color: rgb(216, 213, 213);
+}
 
 .parent {
     margin: auto;
@@ -10,6 +13,7 @@ html{
     border: 2px solid grey;
     border-radius: 10px;
     height: 580px;
+    background-color: azure;
 }
 
 .box1 {
