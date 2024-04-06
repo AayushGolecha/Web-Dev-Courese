@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Clear Property</title>
+    <style>
+        img {
+            /* float: right; */
+            float: left;
+        }
+
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+            font-size: 20px;
+        }
+
+        .card {
+            border: 2px solid red;
+        }
+        .card:nth-child(3){
+            /* clear: right; */
+            clear:both;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkZLAvyPHnOUBaK-1a-Np0hVO7A1Pfi3XXORX9m1MCihmbnREsei5KcYHO1w&s"
+            alt="">
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse libero adipisci eveniet error,
+            accusantium molestias?</div>
+        <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus illo ratione nemo tenetur ad
+            ipsam ea sint nesciunt facere repudiandae. Reprehenderit optio dignissimos omnis laborum molestiae voluptate
+            eum aut architecto reiciendis? Totam, nisi corporis quis saepe at non rerum in! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Optio consequuntur animi ipsum nam veniam quaerat odio nobis enim quis? Neque
+            ex repellat qui sapiente quod provident fugit voluptatem, ab doloribus perferendis eum nihil ipsa dolores
+            deleniti, placeat non excepturi itaque. Non ullam quae totam praesentium, officiis autem a exercitationem
+            adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti itaque delectus asperiores totam
+            dolorum neque eius vel velit quos, rem dolor praesentium ex doloribus, sequi magnam pariatur quae nam
+            debitis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, distinctio eos quia possimus quae
+            modi perferendis ab facere labore ut excepturi reprehenderit, rerum fuga veniam corporis blanditiis
+            provident magnam. Repellendus doloremque consectetur, praesentium vero dolor itaque eligendi ratione magnam
+            vel assumenda nesciunt ad illum numquam consequuntur modi sed esse. Voluptatum, laudantium! Vitae, quia
+            quasi exercitationem molestias voluptate perferendis optio atque quas soluta repudiandae quod quisquam qui
+            velit corporis vero totam. Dolorum ea corporis, eveniet modi ab aut mollitia laudantium? Libero dolores
+            alias dolor labore cumque laborum fugiat rem autem atque illum possimus error, modi molestias a in aliquam?
+            Dolorum, aperiam?</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+
+</html>

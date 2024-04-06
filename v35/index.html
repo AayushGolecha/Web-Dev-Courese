@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box:first-child {
+            background-color: rgb(241, 136, 136);
+        }
+
+        .box::first-line {
+            color: rgb(29, 1, 242);
+        }
+
+        .boxes * {
+            color: rgb(24, 235, 84);
+            border: 2px solid black;
+        }
+/* 
+        [data-color="primary"] {
+            padding-top: 45px;
+        } */
+
+
+        /* p, a, .box,[data-color="primary"] {
+            padding-top: 45px;
+        } */
+
+        /* .box:nth-child(odd){
+            background-color: rgb(187, 154, 154);
+        } */
+
+        /* .box:nth-last-child(2){
+            background-color: red;
+        } */
+
+        .boxes::before {
+            content: "Harry is good";
+            color: blue;
+        }
+
+        .boxes::after {
+            content: "Sigma course is also good";
+            color: red;
+        }
+
+        ::selection {
+            background-color: black;
+            color: aqua;
+        }
+
+        .box::first-letter {
+            color: peru;
+            font-size: 45px;
+        }
+
+        input::placeholder {
+            color: rgb(253, 0, 152);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
+            explicabo recusandae,
+            tempora ullam distinctio suscipit numquam asperiores blanditiis! Tenetur mollitia ex doloremque, aliquam ut
+            accusamus nesciunt eveniet maiores cum iusto consequatur consectetur impedit ea pariatur! Tempore reiciendis
+            incidunt ratione nesciunt! Optio incidunt rerum, pariatur minima facilis porro labore distinctio possimus?
+        </div>
+        <div class="box">I am a div</div>
+        <div class="box">I am a div</div>
+        <input type="text" name="" id="" placeholder="Type your name">
+    </div>
+</body>
+
+</html>
