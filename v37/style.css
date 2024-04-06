@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+nav{
+    background-color: rgb(231, 82, 107);
+    /* position: fixed;
+    top: 0px; */
+    height: 40px;
+    width:100%;
+}
+ul{
+    display: flex;
+    margin: auto;
+    width: 50vw;
+}
+ul li{
+    padding: 10px 60px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+ul li:hover{
+    background-color: azure;
+    color: rgb(211, 0, 248);
+}
+.sec1{
+    display: flex;
+}
+.box{
+    border: 2px solid black;
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+img{
+    width: 50px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.new{
+    border: 2px solid black;
+    margin: auto;
+    width: 60vw;
+    margin-top: 60px;
+    font-size: 80px;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    background-color: yellow;
+}
+.foot{
+    display: flex;
+    background-color: rgb(205, 112, 127);
+    font-size: 18px;
+}
+.foot div{
+    margin: 30px;
+    padding-left: 180px;
+    width: 33%;
+}
