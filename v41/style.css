@@ -28,6 +28,7 @@ ul{
 .box2 ul li{
     list-style: none;
     padding-right: 24px;
+    cursor: pointer;
     
 }
 .material-symbols-outlined {
