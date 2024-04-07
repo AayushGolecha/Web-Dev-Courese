@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    height: 97px;
+    width: 100vw;
+}
+.box1 img{
+    height: 56px;
+    width: 176px;
+    margin: 21px 0px;
+    padding-left: 152px;
+}
+.box2{
+    margin: 34px 0px;
+    color: #222222;
+    
+    margin-left: 389px;
+}
+ul{
+    display: flex;
+    
+}
+.box2 ul li{
+    list-style: none;
+    padding-right: 24px;
+    
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 20,
+  'opsz' 48;
+}
+.box2 span{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.cont{
+    margin-top: 65px;
+    text-align: center;
+    margin-left: 268px;
+    margin-right: 268px;
+}
+main .cont1{
+    font-size: 48px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.cont1 span{
+    font-weight: 700;
+}
+main .cont2{
+    font-size: 24px;
+    margin-bottom: 23px;
+    padding-bottom: 10px;
+}
+main .cont3{
+    font-size: 14px;
+    background-color: #00b6d1;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+    height: 24px;
+    width: 253px;
+    padding: 12px 20px;
+    margin-left: 350px;
+}
