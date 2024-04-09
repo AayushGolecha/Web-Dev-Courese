@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 8</title>
+    <style>
+        .container {
+            background-color: blue;
+            width: 80vw;
+            height: 80vh;
+            /* display: flex;
+            align-items: flex-end; */
+            position: relative;
+        }
+
+        .box {
+            background-color: red;
+            width: 80px;
+            height: 80px;
+            border-radius: 65px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            /* animation: bounce 5s linear 1s 5; */
+            animation-fill-mode: forwards;
+            animation: bounceX 3s linear infinite, bounceY 1s ease-out infinite alternate ;
+        }
+
+        /* @keyframes bounce {
+            0% {}
+
+            25% {
+                transform: translate(150px, -300px);
+            }
+
+            50% {
+                transform: translate(300px, 0px);
+            }
+            75% {transform: translate(450px, -300px);}
+
+            100% {transform: translate(600px, 0px);}
+        } */
+        @keyframes bounceX {
+            from{
+                left: 0;
+            }
+            to{
+                left: 90%;
+            }
+        }
+        @keyframes bounceY {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom:70%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

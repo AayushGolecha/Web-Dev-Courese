@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container{
+            background-color: yellow;
+            height: 50vh;
+            width: 50vw;
+        }
+        .box{
+            height: 5vh;
+            width: 5vw;
+            background-color: purple;
+            color: azure;
+            /* animation-name: newAnime;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 2;
+            animation-direction: alternate-reverse;
+            animation-fill-mode: forwards; */
+            /* animation:  newAnime 3s ease-out 2s 2 reverse forwards; */
+            animation:  newAnime 3s ease-out 2s 2, posi 5s ease-out 2s 2 ;
+        }
+        @keyframes newAnime{
+            from{
+                background-color: purple;
+            }
+            to{
+                background-color: blue;
+                /* transform: translateX(500px); */
+            }
+        }
+        @keyframes posi{
+            0%{
+                transform: rotate(180deg);
+            }
+            25%{transform: rotate(360deg);}
+            50%{transform: rotate(540deg);}
+            100%{transform: rotate(720deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">BOX</div>
+    </div>
+</body>
+</html>
