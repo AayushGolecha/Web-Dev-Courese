@@ -1,12 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
 
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 100;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 300;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 800;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 900;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: "Martel Sans", sans-serif;
+    font-family: "Netflix Sans", "Martel Sans", sans-serif;
 }
 
 main {
@@ -14,7 +56,7 @@ main {
     /* background-position: -220px -290px; */
     background-position: center center;
     background-repeat: no-repeat;
-    /* background-size: max(2000px, 100vw); */
+    background-size: max(2000px, 100vw);
     height: 100vh;
     position: relative;
 
@@ -23,15 +65,15 @@ main {
 main .box {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.211);;
-    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.211);
+    ;
+    opacity: 0.6;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
-    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.95), rgb(0, 0, 0));
 }
 
 .head {
@@ -69,26 +111,30 @@ nav .lang {
     background-color: transparent;
     border: 2px solid rgba(128, 128, 128, 0.7);
     display: inline-flex;
-    width: 100px;
+    width: 126px;
     height: 30px;
     border-radius: 5px;
     font-weight: 500;
     margin-right: 20px;
 }
-nav .lang:active{
+
+nav .lang:active {
     border: 3px solid white;
 }
 
 nav .btnsignin {
-    background-color: red;
+    background-color: rgb(229, 9, 20);
     color: white;
-    width: 76px;
-    height: 30px;
+    width: 78px;
+    height: 28px;
     font-weight: 600;
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 15px;
 }
 
 nav .btnsignin:hover {
@@ -100,7 +146,7 @@ nav .lang img {
     width: 16px;
     padding-right: 10px;
     padding-top: 7px;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 nav .lang span {
@@ -118,36 +164,41 @@ main .cont {
     margin-top: 190px;
     margin-left: 290px;
     margin-right: 290px;
+    margin-bottom: 191px;
 }
 
 main .cont h1 {
-    font-size: 2.75rem;
+    font-size: 3rem;
     font-weight: 1000;
     text-align: center;
 }
 
 main .para1 {
-    margin-top: 5px;
-    font-size: 1.4rem;
+    margin-top: 16px;
+    font-size: 1.5rem;
     text-align: center;
+    font-weight: 400;
 }
 
 main .para2 {
-    margin-top: 15px;
-    font-size: 1.2rem;
+    margin-top: 24px;
+    font-size: 1.25rem;
     text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .cont form button {
-    background-color: red;
+    background-color: rgb(229, 9, 20);
     color: white;
     border-radius: 5px;
     width: 209px;
-    height: 60px;
+    height: 58px;
     font-size: 1.5rem;
     font-weight: 600;
     margin-left: 5px;
     text-align: center;
+    border: 0;
 }
 
 .cont form button:hover {
@@ -164,31 +215,292 @@ main .para2 {
     padding-right: 16px;
     padding-bottom: 15px;
     font-size: 1rem;
-    background: transparent;
+    /* background: transparent; */
     width: 335px;
     line-height: 1.5;
     color: inherit;
     border-radius: 5px;
     border: 2px solid grey;
-    background-color: black;
+    /* background-color: black; */
     filter: opacity(0.45);
     color: white;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+
 }
-input::placeholder{
+
+input::placeholder {
     color: rgb(255, 255, 255);
 }
-.cont form{
+
+.cont form {
     padding: 0px 32px;
     margin-top: 12px;
     text-align: center;
 
 }
+
 .cont form input[type=email]:focus {
     border: 3px solid white !important;
-  }
+}
 
-.cont1{
-    width: 100vw;
-    height: 1000px;
-    background-color: blueviolet;
+.separation {
+    height: 8px;
+    /* background-color: gray; */
+    background-color: rgb(35, 35, 35);
+    ;
+}
+
+.sec {
+    width: 100%;
+    height: 430px;
+    padding-top: 64px;
+    padding-bottom: 72px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 165px;
+} */
+.ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 180px;
+}
+
+/* .cont1 div h2{
+    font-size: 2.9rem;
+    font-weight: 900;
+}
+.cont1 div p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+} */
+.sec h2 {
+    font-size: 2.9rem;
+    font-weight: 900;
+}
+
+.sec p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.cont1 div img {
+    width: 570px;
+    height: 427px;
+    z-index: 2;
+}
+
+.cont1 div .video1 {
+    /* display: inline-block;
+    position: relative; */
+    z-index: 1;
+    overflow: hidden;
+    /* width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%; */
+    position: absolute;
+    top: 20%;
+    left: 13.5%;
+}
+
+.c11 p {
+    margin-top: 16px;
+}
+
+.sec div .c12 {
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
+.c22 h2 {
+    line-height: 1.3;
+}
+
+.c22 p {
+    margin-top: 16px;
+}
+
+.cont2 div img {
+    width: 570px;
+    height: 427px;
+}
+
+.cont2 .d1 img {
+    height: 80px;
+    width: 56px;
+}
+
+.cont2 .d3 img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.downloadbox {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 8px 12px;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    overflow: hidden;
+    position: absolute;
+    left: 23%;
+    bottom: 8%;
+    background: rgb(0, 0, 0);
+    z-index: 1;
+    border-radius: 0.75rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.c21 {
+    position: relative;
+}
+
+.cont2 .d1 {
+    margin-right: 16px;
+}
+
+.d2> :nth-child(1) {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.d2> :nth-child(2) {
+    color: #0071eb;
+    ;
+}
+
+.d2 {
+    margin: 5px 0px;
+    flex-grow: 1;
+}
+
+.d3 {
+    width: 3rem;
+}
+
+.c31 h2 {
+    line-height: 1.3;
+}
+
+.c31 p {
+    margin-top: 16px;
+}
+
+.sec div .c32 {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
+.cont3 div .video2 {
+    /* display: inline-block;
+    position: relative; */
+    z-index: 1;
+    overflow: hidden;
+    /* width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%; */
+    position: absolute;
+    top: 11%;
+    left: 19%;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+}
+
+.cont3 div img {
+    width: 570px;
+    height: 427px;
+    z-index: 2;
+}
+
+.cont4 div img {
+    width: 570px;
+    height: 427px;
+}
+
+.c41 {
+    padding-right: 6px;
+}
+
+.c42 {
+    padding-left: 6px;
+}
+
+.c42 p {
+    margin-top: 16px;
+}
+
+.sec1 {
+    width: 100%;
+    height: 930px;
+    padding-top: 64px;
+    padding-bottom: 72px;
+    background-color: black;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.ctr1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0px 180px;
+}
+
+.cont5 h2 {
+    font-size: 2.9rem;
+    font-weight: 900;
+}
+.cont5 div{
+    margin-top: 24px;
+}
+.faq ul{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.faq ul li{
+    list-style: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    
+}
+.faq ul li h3{
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    /* align-items: center; */
+}
+.faq ul li h3 button{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bg{
+    background: none;
+    border: 0;
+    color: white;
 }
