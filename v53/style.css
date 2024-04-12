@@ -54,29 +54,31 @@ body {
 
 main {
     background-image: url("images/image1.jpg");
-    /* background-position: 41% 72%; */
+    background-position: 44% 72%;
     /* background-position: center center; */
     background-repeat: no-repeat;
     /* background-size: max(2000px, 100vw); */
-    /* height: 100vh; */
-    height: 100%;
+    height: 100vh;
+    /* height: 100%; */
     width: 100%;
     /* position: relative; */
     object-fit: cover;
+    /*  */
 }
 
 main .box {
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.211);
-    ;
     opacity: 0.6;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.211); */
+    background-color: black;
+    opacity: 0.55;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .head {
@@ -171,7 +173,7 @@ main .cont {
 }
 
 main .cont h1 {
-    font-size: 3rem;
+    font-size: 3.1rem;
     font-weight: 1000;
     text-align: center;
 }
@@ -579,9 +581,6 @@ input::placeholder {
 .cont5 form {
     margin-top: 16px;
 }
-footer{
-    
-}
 
 .sec2 {
     color: rgba(255, 255, 255, 0.7);
@@ -598,34 +597,41 @@ footer{
     font-size: 1rem;
     font-weight: 400;
     background-color: black;
-    
+
 }
-.ctr2{
+
+.ctr2 {
     padding: 0px 48px;
-    
+
 }
-.foot{
+
+.foot {
     margin-bottom: 12px;
 }
-.foot a{
+
+.foot a {
     color: rgba(255, 255, 255, 0.7);
 }
-.footgrid{
+
+.footgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 26px;
     margin-top: -4px;
     margin-left: -12px;
 }
-.footgrid div a{
+
+.footgrid div a {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 0.85rem;  
+    font-size: 0.85rem;
 }
-.footgrid div{
+
+.footgrid div {
     margin-top: 16px;
-    margin-left: 12px;   
+    margin-left: 12px;
 }
-.ctr2 div:last-child{
+
+.ctr2 div:last-child {
     margin-top: 24px;
     font-size: 0.85rem;
 }
