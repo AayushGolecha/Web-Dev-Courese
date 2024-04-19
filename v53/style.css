@@ -635,3 +635,254 @@ input::placeholder {
     margin-top: 24px;
     font-size: 0.85rem;
 }
+
+.lang1 {
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    display: inline-flex;
+    width: 126px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.lang1:active {
+    border: 3px solid white;
+}
+
+.lang1 img {
+    height: 16px;
+    width: 16px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.lang1 span {
+    padding-top: 3px;
+}
+
+@media only screen and (max-width:450px) {
+    .head {
+        margin: 0;
+        padding: 18px;
+        width: 90vw;
+    }
+
+    nav img {
+        width: 6rem;
+        height: 1.5rem;
+    }
+
+    .lang span {
+        visibility: hidden;
+        display: none;
+    }
+
+    .lang {
+        margin-right: 2px;
+        width: 70px;
+    }
+
+    nav {
+        margin: 1px 0px;
+        width: 90vw
+    }
+
+    main .cont {
+        margin-top: 40px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 10px;
+    }
+
+    main .box {
+        height: 52vh;
+    }
+
+    main {
+        height: 52vh;
+    }
+
+    main .cont h1 {
+        font-size: 2rem;
+        ;
+    }
+
+    main .para1 {
+        font-size: 1.2rem;
+    }
+
+    main .para2 {
+        font-size: 1.2rem;
+    }
+
+    .cont form button {
+        width: 156px;
+        height: 43px;
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
+
+    .cont form input {
+        width: 300px;
+    }
+
+    .ctr {
+        flex-direction: column;
+        margin: 0px 20px;
+        /* max-width: calc(100%-2rem); */
+    }
+
+    .sec {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+
+    .sec h2 {
+        font-size: 1.9rem;
+        font-weight: 900;
+    }
+
+    .sec p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+    .cont1 div img {
+        width: 382px;
+        height: 286px;
+        z-index: 2;
+    }
+
+    .c11 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cont1 div .video1 {
+
+        overflow: hidden;
+        z-index: 1;
+        max-width: 73%;
+        max-height: 54%;
+    }
+
+    .sec div .c12 {
+        z-index: 1;
+    }
+
+    .cont2,
+    .cont4 {
+        flex-direction: column-reverse;
+    }
+
+    .cont2 div img {
+        width: 382px;
+        height: 286px;
+    }
+
+    .c22 {
+        text-align: center;
+    }
+
+    .downloadbox {
+        width: 63%;
+        left: 16%;
+        bottom: 5%;
+        padding: 4px 10px;
+    }
+
+    .cont2 .d1 img {
+        height: 48px;
+        width: 34px;
+    }
+
+    .d2> :nth-child(1) {
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    .d2> :nth-child(2) {
+        font-size: 0.9rem;
+    }
+
+    .c22 {
+        padding-bottom: 10px;
+    }
+
+    .cont3 div img {
+        width: 382px;
+        height: 286px;
+    }
+
+    .c31 {
+        text-align: center;
+    }
+
+    .c31 p {
+        font-size: 1.15rem;
+    }
+
+    .c42 {
+        text-align: center;
+    }
+
+    .c42 p {
+        font-size: 1.15rem;
+    }
+
+    .cont4 div img {
+        width: 382px;
+        height: 286px;
+    }
+
+    .cont5 h2 {
+        font-size: 2rem;
+    }
+
+    .faq ul li {
+        width: 90vw;
+    }
+
+    .faq ul li h3 button {
+        font-size: 1.15rem;
+    }
+
+    .faq ul li h3 button img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .endpara {
+        font-size: 1.15rem;
+        padding: 0px 30px;
+    }
+
+    .input1 {
+        width: 300px;
+    }
+
+    .getstarted1 {
+        width: 160px;
+        height: 43px;
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
+
+    .sec2 {
+        margin: 30px 25px;
+    }
+
+    .ctr2 {
+        padding: 0px;
+    }
+
+    .footgrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
