@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: grey;
+    gap: 20px;
+    padding: 10px;
+    width: 62vw;
+}
+.image img{
+    border-radius: 10px;
+}
+.text h1{
+    font-size: 1.25rem;
+    margin: 0px 0px;
+}
+.text p{
+    margin-top: 10px;
+}
+.image{
+    position: relative;
+}
+.image div{
+    position: absolute;
+    top: 70%;
+    left: 76%;
+    color: white;
+    background-color: black;
+    padding: 2px 4px;
+    border-radius: 5px;
+    opacity: 0.6;
+    font-weight: 500;
+}
