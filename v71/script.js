@@ -1,0 +1,63 @@
+console.log("Script is running")
+console.log(document.querySelector(".box"))
+console.log(document.querySelector(".box").tagName)
+console.log(document.querySelector(".box").nodeName)
+console.log(document.querySelector(".box").childNodes[0].nodeName)
+console.log(document.querySelector(".box").childNodes)
+console.log(document.querySelector(".box").childNodes[1].nodeName)
+console.log(document.querySelector(".box").childNodes[2].nodeName)
+console.log(document.querySelector(".box").innerHTML)
+document.querySelector(".box").innerHTML = "Hey I am Aayush"
+console.log(document.querySelector(".box").outerHTML)
+console.log(document.querySelector(".container").innerHTML)
+console.log(document.querySelector(".container").outerHTML)
+console.log(document.querySelector(".container").innerText)
+console.log(document.querySelector(".container").textContent)
+document.querySelector(".newbox").hidden="true"
+console.log(document.querySelector(".box").hasAttribute("style"))
+console.log(document.querySelector(".box").getAttribute("style"))
+document.querySelector(".box").setAttribute("style", "color: purple")
+console.log(document.querySelector(".box").attributes)
+document.querySelector(".box").removeAttribute("style")
+console.log(document.querySelector(".box").dataset)
+
+let div1=document.createElement("div")
+div1.setAttribute("class", "alert")
+div1.innerHTML="This is inserted <b>before</b>"
+document.querySelector(".container").before(div1)
+let div2=document.createElement("div")
+div2.setAttribute("class", "alert")
+div2.innerHTML="This is inserted <b>after</b>"
+document.querySelector(".container").after(div2)
+let div3=document.createElement("div")
+div3.setAttribute("class", "alert")
+div3.innerHTML="This is inserted <b>in container at first position</b>"
+document.querySelector(".container").prepend(div3)
+let div4=document.createElement("div")
+div4.setAttribute("class", "alert")
+div4.innerHTML="This is inserted <b>in container at last position</b>"
+document.querySelector(".container").append(div4)
+let div5=document.createElement("div")
+div5.setAttribute("class", "alert")
+div5.innerHTML="This is <b>new replaced item of class replace div</b>"
+document.querySelector(".replace").replaceWith(div5)
+
+document.querySelector(".new").insertAdjacentHTML("beforebegin", "<p>Hello World 1</p>")
+document.querySelector(".new").insertAdjacentHTML("afterbegin", "<p>Hello World 2</p>")
+document.querySelector(".new").insertAdjacentHTML("beforeend", "<p>Hello World 3</p>")
+document.querySelector(".new").insertAdjacentHTML("afterend", "<p>Hello World 4</p>")
+
+document.getElementById("id").remove()
+document.querySelector(".remove").remove()
+
+console.log(document.querySelector(".new").classList)
+console.log(document.querySelector(".new").className)
+document.querySelector(".new").classList.add("yellow")
+console.log(document.querySelector(".new").className)
+document.querySelector(".new").classList.remove("red")
+console.log(document.querySelector(".new").className)
+console.log(document.querySelector(".new").classList.contains("yellow"))
+document.querySelector(".new").classList.toggle("bg-green")
+console.log(document.querySelector(".new").className)
+document.querySelector(".new").classList.toggle("bg-purple")
+console.log(document.querySelector(".new").className)
