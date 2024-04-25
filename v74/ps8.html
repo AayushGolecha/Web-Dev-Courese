@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a {
+            padding: 10px;
+            margin: 20px;
+            font-size: 2rem;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+        .glow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button class="a a1">Alert 1</button>
+        <button class="a a2">Alert 2</button>
+        <button class="a a3">Alert 3</button>
+        <button class="a" onclick="alert('Wanna eat Paneer Tikka')">Alert 4</button>
+        <button class="a" onclick="alert('Wanna eat White Pasta')">Alert 5</button>
+        <button class="a" onclick="alert('Wanna eat Soya Chaap')">Alert 6</button>
+    </div>
+
+    <div class="cont">
+        <h1>BookMarks</h1>
+        <a href="https://google.com" target="_blank"><button class="a">Google</button></a>
+        <a href="https://fb.com" target="_blank"><button class="a">Facebook</button></a>
+        <a href="https://youtube.com" target="_blank"><button class="a">Youtube</button></a>
+        <button class="a" id="insta">Instagram</button>
+        <button class="a" id="twit">Twitter</button>
+    </div>
+    <button class="a" onclick="add()">Add</button>
+
+    <div class="box glow" onclick="glow()"></div>
+    <script src="ps8.js"></script>
+</body>
+
+</html>

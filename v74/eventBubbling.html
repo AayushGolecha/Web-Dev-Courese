@@ -45,13 +45,20 @@
         document.querySelector(".child").addEventListener("click", (e) => {
             e.stopPropagation()
             alert("Child Was Clicked")
+            console.log(e.type)
+            console.log(e.currentTarget)
         })
         document.querySelector(".childContainer").addEventListener("click", (e) => {
             e.stopPropagation()
             alert("ChildContainer Was Clicked")
+            console.log(e.type)
+            console.log(e.currentTarget)
         })
-        document.querySelector(".container").addEventListener("click", () => {
+        document.querySelector(".container").addEventListener("click", (e) => {
             alert("Container Was Clicked")
+            console.log(e.type)
+            console.log(e.currentTarget)
+            console.log(e.target)
         })
 
         function randomColor() {
