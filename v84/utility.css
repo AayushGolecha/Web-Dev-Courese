@@ -1,0 +1,52 @@
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 8px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.m-2 {
+    margin-right: 16px;
+    height: 27px;
+    margin-top: 5px;
+}
+.m-4{
+    margin: 8px 8px 8px 0px ;
+}
+.bg-new{
+    background-color:  rgb(83, 83, 83);
+}
+.new{
+    background-image: linear-gradient(rgba(0,0,0,.6) 0,var(--background-base) 100%),var(--background-noise);
+}
+
