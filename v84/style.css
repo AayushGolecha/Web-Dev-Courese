@@ -1,27 +1,32 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
-body{
+
+body {
     background-color: black;
     color: white;
 }
-.left{
+
+.left {
     width: 24vw;
 }
-.right{
-    width: 76vw
+
+.right {
+    width: 76vw;
+    height: 87.5vh;
 }
-.logo{
+
+.logo {
     margin-top: 20px;
     padding-left: 24px;
 }
-.home ul{
+
+.home ul {
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 8px;
@@ -29,7 +34,8 @@ body{
     flex-direction: column;
     gap: 10px;
 }
-.home ul li{
+
+.home ul li {
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 6px;
@@ -38,73 +44,87 @@ body{
     gap: 20px;
     font-weight: bold;
 }
-.home ul li img{
+
+.home ul li img {
     width: 24px;
 }
-.li-2{
-    color: #848484;
+
+.li-2 {
+    color: rgb(167, 167, 167);
 }
-.li-2:hover{
+
+.li-2:hover {
     color: white;
 }
-.heading{
+
+.heading {
     padding: 8px 16px;
-    
+
 }
-.lib{
+
+.lib {
     margin-inline-end: auto;
-    
+
 }
-.lib button{
+
+.lib button {
     justify-content: center;
     align-items: center;
     background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     padding: 4px 8px;
-    color: #848484;
+    color: rgb(167, 167, 167);
 }
-.lib button h3:hover{
+
+.lib button h3:hover {
     color: white;
 }
-.lib h3{
+
+.lib h3 {
     font-size: 1.05rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-left: 12px;
-    color: #848484;
+    color: rgb(167, 167, 167);
 }
-.pIcon{
+
+.pIcon {
     width: 24px;
 }
-.plusIcon{
+
+.plusIcon {
     width: 16px;
 }
-.remove{
+
+.remove {
     background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     padding: 8px;
 }
+
 /* .library {
     min-height: 60vh;
 } */
-.scroll{
+.scroll {
     height: 185px;
     width: 100%;
     border: 1px solid white;
 }
-.footer{
+
+.footer {
     overflow: hidden;
 }
-.footer div .flex{
+
+.footer div .flex {
     display: flex;
     font-size: 11px;
     color: grey;
@@ -112,32 +132,36 @@ body{
     align-items: center;
 }
 
-.links{
+.links {
     padding: 0px 24px;
     margin: 32px 0px;
     box-sizing: border-box;
 }
+
 .cook {
     font-size: 12px;
     margin-top: 16px;
     box-sizing: border-box;
 }
+
 .footer a {
     color: #b3b3b3;
     text-decoration: none;
 }
-.lang{
+
+.lang {
     padding: 0px 24px;
     margin-bottom: 32px;
 }
-.lang button{
+
+.lang button {
     background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     border: 1px solid grey;
     padding-left: 32px;
     padding-top: 5px;
@@ -147,95 +171,256 @@ body{
     border-radius: 20px;
     font-weight: 500;
 }
-.lang button span img{
+
+.lang button span img {
     width: 16px;
 }
-.lang button span{
+
+.lang button span {
     position: absolute;
     left: 10px;
-    top:7px;
-    
+    top: 7px;
+
 }
-.m-2 a{
+
+.m-2 a {
     padding-bottom: 8px;
     padding-top: 5px;
     box-sizing: border-box;
 }
-.signUp{
+
+.signUp {
     padding-top: 11px;
     padding-left: 15px;
     padding-bottom: 7px;
     padding-right: 24px;
     display: flex;
-    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
     justify-content: space-between;
     align-items: center;
 }
-footer{
-    padding:0px 8px;
+
+footer {
+    padding: 0px 8px;
 }
-.m-3{
+
+.m-3 {
     margin-bottom: 4px;
 }
-.m-3 p{
+
+.m-3 p {
     font-weight: 500;
 }
-.small{
+
+.small {
     font-size: 0.875rem;
     font-weight: 700;
     margin-bottom: 2px;
 }
-.signUp button span{
+
+.signUp button span {
     padding: 13px 32px;
     font-size: 16px;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.signUp button{
+
+.signUp button {
     border-radius: 20px;
     border: 0;
 }
-
-.header{
+.right{
+    overflow-y: scroll;
+}
+.header {
     display: flex;
     justify-content: space-between;
+    height: 64px;
+    position: sticky;
+    background-color: #121212;
+	z-index: 1000;
+	top: 0;
 }
-.header > *{
+
+.header>* {
     padding: 8px 16px;
 }
-.b1{
+
+.b1 {
     background: none;
-	color: #848484;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-    padding: 4px 32px 4px 8px; 
+    color: rgb(167, 167, 167);
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    padding: 4px 32px 4px 8px;
     font-weight: 700;
     font-size: 1rem;
 }
-.nav{
+
+.b1:hover {
+    color: white;
+    font-size: 1.02rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav {
     align-items: center;
     gap: 5px;
 }
-.nav button{
+
+.nav button {
     background: black;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit; 
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     padding: 2px 4px;
     border-radius: 20px;
 }
-.b2{
-    padding: 13px 32px 13px 32px;
+
+.b2 {
+
     font-weight: 700;
     font-size: 1rem;
     border-radius: 30px;
+    box-sizing: border-box;
+    border: 0;
+    margin-right: 4px;
+    margin-top: 1px;
+    margin-left: 4px;
 }
+
+.b2 span:hover {
+    padding: 13.5px 34px 13.5px 34px;
+    transition: all 0.1s ease-in-out;
+    font-weight: 800;
+
+}
+
+.b2:hover {
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 0px;
+    transition: all 0.1s ease-in-out;
+}
+
+.b2 span {
+    padding: 13px 32px 13px 32px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+.playlist{
+    padding: 8px 19px 0px 19px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head1 h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.head1 h3:hover{
+    text-decoration: underline;
+}
+.head1 span{
+    color: rgb(167, 167, 167);
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+.head1 span:hover{
+    text-decoration: underline;
+}
+.artistContainer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.card img{
+    width: 160px;
+    height: 165px;
+    border-radius: 90px;
+}
+.card{
+    padding: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+}
+.card:hover{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+.card:hover .custom-button{
+    opacity: 1;
+    top: 130px;
+}
+.custom-button {
+    background-color: #1ED760;
+    padding: 8px 10px; /* Adjust the padding values as needed */
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 30px;
+    position: absolute;
+    top: 140px;
+    right: 27px;
+    opacity: 0;
+    transition: all 0.1s ease-in;
+}
+.custom-button svg {
+    width: 24px;
+    height: 24px;
+}
+.artistInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.artistInfo div{
+    margin-top: 4px;
+    color: rgb(167, 167, 167);
+}
+.section1{
+    margin-bottom: 16px;
+}
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: inherit;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+    background-color: rgba(125, 122, 122, 0.5);
+    border-radius: 0 7px 7px 0;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(194, 194, 194);
+  }
+  
