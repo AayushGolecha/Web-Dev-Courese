@@ -24,6 +24,7 @@ body {
 .logo {
     margin-top: 20px;
     padding-left: 24px;
+    cursor: pointer;
 }
 
 .home ul {
@@ -43,6 +44,7 @@ body {
     list-style: none;
     gap: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .home ul li img {
@@ -146,6 +148,7 @@ body {
     padding: 8px 0px;
     border-radius: 20px;
     margin: 1px;
+    cursor: pointer;
 }
 .btn span{
     padding: 4px 16px;
@@ -227,7 +230,7 @@ body {
 }
 
 .signUp {
-    padding-top: 11px;
+    padding-top: 8px;
     padding-left: 15px;
     padding-bottom: 7px;
     padding-right: 24px;
@@ -256,18 +259,26 @@ footer {
 }
 
 .signUp button span {
-    padding: 13px 32px;
+    padding: 12px 31px;
     font-size: 16px;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin: 1px;
 }
 
 .signUp button {
-    border-radius: 20px;
+    border-radius: 50px;
     border: 0;
+    cursor: pointer;
+    
+    margin: 2px;
+}
+
+.signUp button:hover {
+  padding: 1.5px 2.5px;
+  margin: 0;
 }
 .right{
     overflow-y: scroll;
@@ -332,6 +343,7 @@ footer {
     margin-right: 4px;
     margin-top: 1px;
     margin-left: 4px;
+    cursor: pointer;
 }
 
 .b2 span:hover {
@@ -359,13 +371,14 @@ footer {
 .playlist{
     padding: 8px 19px 0px 19px;
     display: flex;
-    gap: 24px;
+    gap: 20px;
     flex-direction: column;
 }
 .head1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 .head1 h3{
     font-size: 1.4rem;
@@ -402,6 +415,7 @@ footer {
 .card:hover{
     background-color: #1a1a1a;
     border-radius: 10px;
+    cursor: pointer;
 }
 .card:hover .custom-button{
     opacity: 1;
@@ -474,5 +488,67 @@ footer {
     margin-top: 4px;
     color: rgb(167, 167, 167);
     font-size: 0.85rem;
+}
+
+.section3{
+    padding-top: 40px;
+}
+.playlist-footer{
+    padding: 8px 32px 40px 32px;
+}
+.topSec{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-links{
+    display: flex;
+}
+.tile{
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+.tile ul{
+    display: block;
+}
+.tile ul p{
+    font-weight: 700;
+}
+.tile ul a{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+    margin: 8px 0px;
+    display: block;
+}
+.tile ul a span{
+    padding-bottom: 8px;
+}
+.social-icons{
+    margin-bottom: 40px;
+    display: flex;
+    gap: 16px;
+}
+.icons a{
+    background-color: #242424;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.icons a img{
+    width: 16px;
+}
+.line{
+    border-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #292929;
+    margin-bottom: 24px;
+}
+.bottomSec{
+    padding-top: 16px;
+}
+.bottomSec p{
+    color: rgb(167, 167, 167);
 }
   
